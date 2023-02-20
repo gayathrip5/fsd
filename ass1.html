@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <style>
+        .buttons{
+            margin-top: 10px;
+    padding: 10;
+        }
+    </style>
+</head>
+<body>
+     
+    <form id="reset">
+      <div class="inputs">
+      <input type="number" placeholder="enter number 1" id="number1" >
+      <input type="number" placeholder="enter number 2" id="number2">
+       
+
+      </div>
+ 
+    </form>
+       <div class="buttons" id="aa">
+       <button onclick="add()">add</button>
+       <button onclick="substract()">substract</button>
+       <button onclick="multiply()">multiply</button>
+       <button onclick="divide()">divide</button>
+       <input type="reset" onclick="myFunction()">
+
+        <h1>result :<span id="result"></span></h1>
+       
+       </div>
+       
+        
+
+
+    <script src="ass1.js"></script>
+</body>
+</html>
